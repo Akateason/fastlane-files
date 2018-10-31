@@ -1,3 +1,5 @@
+(teason 自定义改动. pod方式加入了user libraries)
+
 # fastlane-files
 
 [**博客介绍**](http://ripperhe.com/2017/03/30/fastlane-pod/)
@@ -39,7 +41,7 @@ $ fastlane release_pod repo:"your private sepc repo name" project:"project name"
 
 ## Author
 
-ripperhe, ripperhe@qq.com
+teason 自定义改动. pod方式加入了user libraries
 
 ## License
 
