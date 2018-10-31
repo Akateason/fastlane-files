@@ -21,7 +21,7 @@ lane :release_pod do |options|
   push_git_tags
   pod_lib_lint(use_libraries: true, allow_warnings: true)
   if target_repo
-    pod_push(path: spec_path, repo: target_repo, use_libraries: true,allow_warnings: true)
+    pod_push(path: spec_path, repo: target_repo, use_libraries: true, allow_warnings: true)
     UI.message("Release lib #{target_project} new version #{target_version} to repo #{target_repo} Successfully! 🎉 ")
   else
     pod_push(path: spec_path, use_libraries: true, allow_warnings: true)
