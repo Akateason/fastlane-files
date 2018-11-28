@@ -49,7 +49,7 @@ module Fastlane
       end
 
       def self.authors
-        ["ripperhe"]
+        ["teason"]
       end
 
       def self.is_supported?(platform)
